@@ -4,7 +4,11 @@ export const APP_ROUTES: Routes = [
   {
     path: 'doggos',
     loadChildren: () =>
-      import('@ps-doggo-rating/doggos/feature').then((m) => m.DOGGOS_ROUTES),
+      import('@ps-doggo-rating/doggos/feature').then((m) => m.DOGGOS_ROUTES)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('@ps-doggo-rating/about/feature').then((m) => m.ABOUT_ROUTES)
   },
   {
     path: 'callback',

@@ -37,6 +37,16 @@
       ],
       "@ps-doggo-rating/shared/util-environments": [
         "libs/shared/util-environments/src/index.ts"
+      ],
+      "@ps-doggo-rating/test/domain-auth": [
+        "libs/test/domain-auth/src/index.ts"
+      ],
+      "@ps-doggo-rating/test/domain-common": [
+        "libs/test/domain-common/src/index.ts"
+      ],
+      "@ps-doggo-rating/test/domain-ui": ["libs/test/domain-ui/src/index.ts"],
+      "@ps-doggo-rating/test/placeholder-environments": [
+        "libs/test/placeholder-environments/src/index.ts"
       ]
     }
   },
