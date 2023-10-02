@@ -15,7 +15,7 @@ import { CommonModule } from '@angular/common';
      -->
     <style>
       html {
-        -webkit-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 99%;
         font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
           'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
           'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',

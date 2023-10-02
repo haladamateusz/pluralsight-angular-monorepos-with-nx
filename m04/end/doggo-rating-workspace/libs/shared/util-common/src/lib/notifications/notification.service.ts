@@ -8,7 +8,7 @@ export abstract class NotificationService {
   constructor(private toastr: ToastrService) {}
 
   showError(message?: string, title?: string): void {
-    message = message || 'There was an error';
+    message = message || 'There was an errore';
     title = title || 'Error';
 
     this.toastr.error(message, title);

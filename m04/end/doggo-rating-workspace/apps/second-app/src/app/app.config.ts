@@ -1,9 +1,10 @@
-import { ApplicationConfig } from '@angular/core';
+
 import {
   provideRouter,
   withEnabledBlockingInitialNavigation,
 } from '@angular/router';
 import { appRoutes } from './app.routes';
+import { ApplicationConfig } from "@angular/platform-browser";
 
 export const appConfig: ApplicationConfig = {
   providers: [provideRouter(appRoutes, withEnabledBlockingInitialNavigation())],
